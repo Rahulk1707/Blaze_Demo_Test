@@ -43,30 +43,31 @@ public class TestCase_1 {
 			}
 		}
 
-		driver.findElement(By.cssSelector("#inputName")).sendKeys("Ryan Gosling");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#address")).sendKeys("123 Main Street");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#city")).sendKeys("Rochestor");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#state")).sendKeys("New York");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#zipCode")).sendKeys("41235");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#cardType")).sendKeys("Visa");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#creditCardNumber")).sendKeys("4569 3459 2341 4458");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#creditCardMonth")).clear();
-		driver.findElement(By.cssSelector("#creditCardMonth")).sendKeys("10");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#creditCardYear")).clear();
-		driver.findElement(By.cssSelector("#creditCardYear")).sendKeys("2028");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#nameOnCard")).sendKeys("Ryan Gosling");
-		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("#rememberMe")).click();
-		Thread.sleep(1000);
+		/*
+		 * driver.findElement(By.cssSelector("#inputName")).sendKeys("Ryan Gosling");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#address")).sendKeys("123 Main Street");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#city")).sendKeys("Rochestor");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#state")).sendKeys("New York");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#zipCode")).sendKeys("41235");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#cardType")).sendKeys("Visa");
+		 * Thread.sleep(1000); driver.findElement(By.cssSelector("#creditCardNumber")).
+		 * sendKeys("4569 3459 2341 4458"); Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#creditCardMonth")).clear();
+		 * driver.findElement(By.cssSelector("#creditCardMonth")).sendKeys("10");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#creditCardYear")).clear();
+		 * driver.findElement(By.cssSelector("#creditCardYear")).sendKeys("2018");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#nameOnCard")).sendKeys("Ryan Gosling");
+		 * Thread.sleep(1000);
+		 * driver.findElement(By.cssSelector("#rememberMe")).click();
+		 * Thread.sleep(1000);
+		 */
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		Thread.sleep(2000);
 
