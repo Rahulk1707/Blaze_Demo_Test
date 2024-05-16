@@ -3,7 +3,7 @@
 <suite name="Test Suite">
   <test name="BlazeDemo Test">
     <classes>
-      <class name="com.eComDeveloper.tests.TestCase_1"/>
+      <class name="com.eComDeveloper.tests.LoginTest1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
